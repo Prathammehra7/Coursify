@@ -1,0 +1,160 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+
+.mainns {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0rem;
+    width: 100%;
+    height: 100vh;
+    background: url(https://images.unsplash.com/photo-1540800458874-73e6a5eed8ac?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=871&q=80) no-repeat;
+    background-size: cover;
+    background-position: center;
+    /* filter: blur(1px); */
+}
+
+/* .form-containers{
+    height: 700px;
+} */
+
+.sign-box {
+    position: relative;
+    width: 400px;
+    height: 550px;
+    border: 2px solid black;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    margin-top: 4rem;
+    align-items: center;
+}
+
+h2 {
+    font-size: 2em;
+    color: white;
+    text-align: center;
+}
+
+.input-boxs {
+    position: relative;
+    width: 310px;
+    margin: 30px 0;
+    border-bottom: 2px solid black;
+}
+
+.input-boxs label {
+
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    transform: translateY(-50%);
+    font-size: 1em;
+    color: black;
+    pointer-events: none;
+    transition: .5s;
+}
+
+input:focus ~ label,
+input:valid ~ label {
+    top: -5px;
+}
+
+
+.input-boxs input {
+
+    width: 100%;
+    height: 50px;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 1em;
+    color: black;
+    padding: 0 35px 0 5px;
+
+}
+
+.remembers label{
+    color: black;
+}
+
+.input-boxs .icons {
+    position: absolute;
+    right: 8px;
+    font-size: 1.2em;
+    line-height: 57px;
+}
+
+.remembers {
+    margin: -15px 0 15px;
+    font-size: .9em;
+    display: flex;
+    justify-content: space-between;
+}
+
+.remembers label input {
+    margin-right: 3px;
+}
+
+.remembers a {
+    color: white;
+    text-decoration: none;
+}
+
+.remembers a:hover {
+    text-decoration: underline;
+}
+
+.signbutton {
+    width: 100%;
+    height: 45px;
+    font-weight: 100;
+    font-size: 18px;
+   outline: none;
+    border-radius: 20px;
+    cursor: pointer;
+    background: rgb(57, 57, 224);
+}
+
+
+/* media query (small screens) */
+
+@media screen and (max-width : 600px) {
+
+    .input-boxs  {
+        gap: 1.5rem;
+    }
+
+
+
+    .input-boxs input {
+        padding: 8px 12px;
+    }
+
+    .form-containers button {
+        width: 100%;
+
+    }
+
+    .form-items {
+        border: none;
+
+    }
+    
+}
+
+@media screen and (max-width : 900px) {
+
+    .form-items {
+        border: none;
+        background: none;
+
+    }
+}
