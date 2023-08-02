@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react'
 import { Link } from 'react-router-dom'
 import { MdOutlineClose } from 'react-icons/md'
 import Logo from '../Images/logo.jpg'
-// import { GoThreeBars } from 'react-icons/go'
+import { RxHamburgerMenu } from 'react-icons/rx'
 import { HiShoppingCart } from "react-icons/hi";
 import { NavLink } from "react-router-dom";
 import { HiOutlineChevronDown } from "react-icons/hi";
@@ -111,7 +111,7 @@ const Navbar = () => {
 
                 <button className="nav__toggle-btn" onClick={() => setIsNavShowing(prev => !prev)}>
                     {
-                        isNavShowing ? <MdOutlineClose /> : <MdOutlineClose />
+                        isNavShowing ? <MdOutlineClose /> : <RxHamburgerMenu />
                     }
                 </button>
             </div>
