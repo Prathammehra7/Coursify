@@ -4,7 +4,7 @@
     display: grid;
     place-items: center;
     /* margin-top: 5rem; */
-    background-image:linear-gradient(to bottom ,black) url(https://media.istockphoto.com/id/1423098321/vector/dark-purple-edge-glow-modern-gradient-abstract-blend-background.jpg?s=612x612&w=0&k=20&c=FpuUIzzyi8ryd3lXnArlafHYM_Bip5otkOJAa7T4hg4=) ;
+    background-image: url(https://media.istockphoto.com/id/1423098321/vector/dark-purple-edge-glow-modern-gradient-abstract-blend-background.jpg?s=612x612&w=0&k=20&c=FpuUIzzyi8ryd3lXnArlafHYM_Bip5otkOJAa7T4hg4=) ;
     background-size: cover;
     background-repeat: no-repeat;
 
